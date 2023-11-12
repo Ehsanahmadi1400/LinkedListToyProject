@@ -106,7 +106,8 @@ int main() {
         // If successful, get the names
         cout << "You want to add " << qty << " names " << endl;
         cout << "Now enter the names ... " << endl;
-
+        cout << "After writing each name hit Enter button " << endl;
+        
         for(int i = 0; i < qty + 1; ++i) {
             getline(cin, name);
             linker.add_node(name);
